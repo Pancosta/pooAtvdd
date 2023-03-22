@@ -122,7 +122,7 @@ public class Cliente {
             saldo += this.contas.get(i).getSaldo();
         }
         DecimalFormat df = new DecimalFormat("#.##");
-        System.out.print("RS" + df.format(saldo));
+        System.out.print("Balanco entre contas: RS" + df.format(saldo));
         return saldo;
     }
 
