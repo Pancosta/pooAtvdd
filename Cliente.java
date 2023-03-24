@@ -37,6 +37,7 @@ public class Cliente {
             System.out.print("A conta jah estah associada a este cliente.");
         } else {
             this.contas.add(c);
+            System.out.print("Conta adicionada com sucesso!");
         }
     }
 
